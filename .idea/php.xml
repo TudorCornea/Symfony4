@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/composer" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/lexer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>
