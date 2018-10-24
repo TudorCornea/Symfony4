@@ -1,0 +1,25 @@
+{#yay-this is a comment#}
+{# there are 2 syntaxex for twig , for one {{  }} si {% do something %}  #}
+{% extends 'base.html.twig' %}
+{% block title %}Read{{ title }}{% endblock %}
+{% block body  %}
+<h1>{{ title }}</h1>
+
+<div>
+    <p>
+        Ana are pere si mere dar ar vrea si niste bacon
+    </p>
+
+    <p>
+        Monica are bacon , si fiindca s-a saturat de el vrea fructele de la Ana.
+    </p>
+</div>
+
+<h2>Comments({{ comments|length }})</h2>
+
+<ul>
+    {% for comment in comments %}
+        <li>{{ comment }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
