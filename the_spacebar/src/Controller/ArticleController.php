@@ -33,6 +33,8 @@ class ArticleController extends AbstractController
             'I ate a normal rock once. It did not taste like bacon!',
             'I like bacon too! Buy some from my site!',
         ];
+
+
         return $this->render('article/show.html.twig', [
             'title' => ucwords(str_replace('-', '', $slug)),
             'comments' =>$comments,
