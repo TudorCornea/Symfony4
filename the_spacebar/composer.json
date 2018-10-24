@@ -6,6 +6,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.2",
+        "sensiolabs/security-checker": "^5.0",
         "symfony/console": "*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "*",
@@ -14,7 +15,6 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
-        "sensiolabs/security-checker": "^5.0",
         "symfony/dotenv": "*"
     },
     "config": {
