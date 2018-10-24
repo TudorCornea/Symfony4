@@ -36,6 +36,9 @@
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/persistence" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/twig/twig" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
