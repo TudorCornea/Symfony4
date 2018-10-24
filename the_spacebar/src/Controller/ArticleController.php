@@ -22,7 +22,7 @@ class ArticleController extends AbstractController
     /**
      * @Route("/news/{slug}", name="article_show")
      */
-    public function show($slug)
+    public function show($slug,Environment $twigEnvironment)
     {
         $comments = [
             'I ate a normal rock once. It did NOT taste like bacon!',
@@ -30,11 +30,13 @@ class ArticleController extends AbstractController
             'I like bacon too! Buy some from my site! bakinsomebacon.com',
         ];
 
-        return $this->render('article/show.html.twig', [
+        $html = $twigEnvironment->render('article/show.html.twig', [
             'title' => ucwords(str_replace('-', ' ', $slug)),
             'heart' => $slug,
             'comments' => $comments,
         ]);
+
+        return new Response($html);
     }
 
     /**
