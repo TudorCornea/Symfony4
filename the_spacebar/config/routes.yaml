@@ -1,7 +1,3 @@
-index:
-    path: /
-    controller: App\Controller\ArticleController::homepage
-
-app_lucky_number:
-  path: /lucky/number
-  controller: App\Controller\LuckyController::number
+#index:
+#    path: /
+#    controller: App\Controller\ArticleController::homepage

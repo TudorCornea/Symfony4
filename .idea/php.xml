@@ -29,12 +29,9 @@
       <path value="$PROJECT_DIR$/the_spacebar/vendor/sensio/framework-extra-bundle" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/reflection" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/persistence" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/twig-bundle" />
@@ -49,6 +46,9 @@
       <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/monolog-bundle" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/debug-bundle" />
       <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/the_spacebar/vendor/symfony/phpunit-bridge" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
