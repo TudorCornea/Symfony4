@@ -56,6 +56,7 @@ EOF;
     }
 
         $articleContent = $item->get();
+        dump($markdown);die;
 
         return $this->render('article/show.html.twig', [
             'title' => ucwords(str_replace('-', ' ', $slug)),
