@@ -18,19 +18,19 @@ class MarkdownHelper
 
     private $markdown;
 
-    private $logger;
+    private $markdownLogger;
 
-    public function __construct(AdapterInterface $cache , MarkdownInterface $markdown,LoggerInterface $logger)
+    public function __construct(AdapterInterface $cache , MarkdownInterface $markdown,LoggerInterface $markdownLogger)
     {
         $this->cache=$cache;
         $this->markdown=$markdown;
-        $this->logger = $logger;
+        $this->markdownLogger = $markdownLogger;
     }
 
     public function parse(string $source): string
     {
         if(stripos($source, 'bacon') !== false){
-            $this->logger->info("They are talking about bacon");
+            $this->markdownLogger->info("They are talking about bacon");
         }
 
         $item = $this->cache->getItem('markdown_'.md5($source));
