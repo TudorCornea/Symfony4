@@ -1,89 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f27acef-77a1-40c6-a0f6-db28bd47bbb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.env.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/finish.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/symfony2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/bin/console" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/bin/phpunit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/bundles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/dev/easy_log_handler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/dev/monolog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/dev/routing.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/dev/security_checker.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/dev/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/framework.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/prod/monolog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/routing.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/test/framework.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/test/monolog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/test/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/packages/twig.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/routes.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/routes/annotations.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/routes/dev/twig.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/routes/dev/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/services.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/config/services_test.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/alien-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/asteroid.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/astronaut-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/lightspeed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/mercury.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/meteor-shower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/space-ice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/images/space-nav.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/public/js/article_show.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/src/Controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/src/Controller/ArticleController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/src/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/symfony.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/templates/article/homepage.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/templates/article/show.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/templates/base.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tests/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/alien-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/asteroid.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/astronaut-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/lightspeed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/mercury.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/meteor-shower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/space-ice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/images/space-nav.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/templates/article.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/templates/base.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_spacebar/tutorial/templates/homepage.html.twig" beforeDir="false" />
-    </list>
+    <list default="true" id="7f27acef-77a1-40c6-a0f6-db28bd47bbb3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +28,7 @@
           <entry key="json" value="2" />
           <entry key="lock" value="2" />
           <entry key="log" value="3" />
-          <entry key="php" value="15" />
+          <entry key="php" value="16" />
           <entry key="twig" value="1" />
           <entry key="yaml" value="17" />
         </counts>
@@ -118,7 +36,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="23" />
-          <entry key="PHP" value="1892" />
+          <entry key="PHP" value="2760" />
           <entry key="PLAIN_TEXT" value="102" />
           <entry key="Twig" value="21" />
           <entry key="YAML" value="441" />
@@ -129,7 +47,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="PHP" value="15" />
+          <entry key="PHP" value="16" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Twig" value="1" />
           <entry key="YAML" value="17" />
@@ -142,7 +60,7 @@
           <entry key="dist" value="2" />
           <entry key="env" value="100" />
           <entry key="json" value="23" />
-          <entry key="php" value="1892" />
+          <entry key="php" value="2760" />
           <entry key="twig" value="21" />
           <entry key="yaml" value="441" />
         </counts>
@@ -152,7 +70,7 @@
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="2" />
+          <entry key="PHP Class.type" value="3" />
           <entry key="PHP Trait.type" value="1" />
         </counts>
       </usages-collector>
@@ -176,11 +94,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="255">
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="33" column="93" lean-forward="true" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <element signature="e#119#142#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,19 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env.dist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
               <folding>
                 <element signature="e#34#65#0#PHP" expanded="true" />
               </folding>
@@ -283,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/Command/ArticleStatsCommand.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
       </list>
     </option>
   </component>
@@ -525,12 +448,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540463624395</updated>
-      <workItem from="1540463625921" duration="28316000" />
+      <workItem from="1540463625921" duration="30752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28316000" />
+    <option name="totallyTimeSpent" value="30752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="e#34#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Helper/LoggerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -778,10 +691,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <folding>
+            <element signature="e#34#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="255">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="93" lean-forward="true" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <element signature="e#119#142#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
