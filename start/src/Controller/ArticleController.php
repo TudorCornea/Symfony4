@@ -43,19 +43,16 @@ class ArticleController extends AbstractController
      *
      * @Route("/news/{slug}", name="article_show")
      */
-    public function show($slug,SlackClient $slack,EntityManagerInterface $em)
+    public function show(Article $article,SlackClient $slack)
     {
 
-        if ($slug == 'KHANNANANNANANANANAN') {
+        if ($article->getSlug() == 'KHANNANANNANANANANAN') {
              $slack->sendMessage('Khan','Ah , my old friend');
         }
-
-        $repository = $em->getRepository(Article::class);
-        /**@var Article $article */
-        $article = $repository->findOneBy(['slug' => $slug]);
-        if(!$article){
-            throw $this->createNotFoundException(sprintf('No article for slug "%s"', $slug));
-        }
+        // this is a trick  , daca ai numele de la route slug acelasi ca in tabel poti sa folosesti trickul acesta .
+        // daca pui la parametru un entity class , symfony automatically will query for that entity , deci daca
+        //ai slug la route la PLACEHOLDER VALUES si la tabel stie el cum sa le lege
+        // deci my wildcard trebuie numit la fel ca proprietatea tabelului
 
         $comments = [
             'I ate a normal rock once. It did NOT taste like bacon!',
