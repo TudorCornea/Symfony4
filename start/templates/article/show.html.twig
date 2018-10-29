@@ -27,7 +27,8 @@ dar e private , dupa se uita in getTitle , stie el si dupa printeaza ce e in tit
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="article-text">
-                            {{ article.content|markdown }}
+                            {{ article.content|cached_markdown }} {#cand folosim un filter valoare din stanga va devenii
+                                                                    primul argument din filter function #}
                         </div>
                     </div>
                 </div>
