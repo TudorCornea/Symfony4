@@ -25,10 +25,13 @@ class CommentRepository extends ServiceEntityRepository
      */
     public function findAllWithSearch(?string $term)
     {
-        $qb = $this->createQueryBuilder('c');
+        $qb = $this->createQueryBuilder('c')
+            ->innerjoin('c.article', 'a')
+            ->addSelect('a'); //fetch the data from article too , because i have 5 queries , if i fetch i will
+                                    // have only one query
 
         if($term){
-            $qb->andWhere('c.content LIKE :term OR c.authorName LIKE :term')
+            $qb->andWhere('c.content LIKE :term OR c.authorName LIKE :term OR a.title LIKE :term')
                 ->setParameter('term', '%'.$term.'%')
                 ;
         }
