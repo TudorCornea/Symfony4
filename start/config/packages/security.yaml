@@ -12,6 +12,7 @@ security:
             security: false
         main:
             anonymous: true #allows users to pass the security Login to acces data from the page
+
             guard:
                 authenticators:
                     - App\Security\LoginFormAuthenticator

@@ -34,7 +34,6 @@ class ArticleController extends AbstractController
     public function homepage(ArticleRepository $repository)
     {
         $articles = $repository->findAllPublishedOrderedByNewest(); //daca nu pui nimic la primul array , o sa-ti dea tot
-
         return $this->render('article/homepage.html.twig',[
           'articles' => $articles
         ]);
