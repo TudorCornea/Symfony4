@@ -12,6 +12,7 @@ namespace App\Service;
 use Michelf\MarkdownInterface;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Cache\Adapter\AdapterInterface;
+use Symfony\Component\Security\Core\Security;
 
 class MarkdownHelper
 {   private $cache;
@@ -22,18 +23,23 @@ class MarkdownHelper
 
     private $isDebug;
 
-    public function __construct(AdapterInterface $cache , MarkdownInterface $markdown,LoggerInterface $markdownLogger, bool $isDebug)
+    private $security;
+
+    public function __construct(AdapterInterface $cache , MarkdownInterface $markdown,LoggerInterface $markdownLogger, bool $isDebug, Security $security)
     {
         $this->cache=$cache;
         $this->markdown=$markdown;
         $this->markdownLogger = $markdownLogger;
         $this->isDebug = $isDebug;
+        $this->security = $security;
     }
 
     public function parse(string $source): string
     {
         if(stripos($source, 'bacon') !== false){
-            $this->markdownLogger->info("They are talking about bacon");
+            $this->markdownLogger->info("They are talking about bacon",[
+                'user' => $this->security->getUser(),
+            ]);
         }
 
         if($this->isDebug){
