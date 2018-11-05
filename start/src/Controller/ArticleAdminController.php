@@ -33,10 +33,15 @@ class ArticleAdminController extends AbstractController
                                         //daca e post , handlerul va lua datele de la submit automat
                                         // iar jos la isSubmitted va returna true
         if($form->isSubmitted() && $form->isValid()){
-            $data = $form->getData();
-            $article = new Article();
+            /**@var Article $article */
+            $article = $form->getData();
+            /*$article = new Article();
             $article->setTitle($data['title']);
             $article->setContent($data['content']);
+            $article->setAuthor($this->getUser());
+
+            ce e aici facut manual este facut automat in configureOptions in ArticleFormType
+            */
             $article->setAuthor($this->getUser());
 
             $em->persist($article);
