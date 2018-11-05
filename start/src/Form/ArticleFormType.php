@@ -10,6 +10,7 @@ namespace App\Form;
 
 
 use App\Entity\Article;
+use Doctrine\DBAL\Types\TextType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -19,7 +20,9 @@ class ArticleFormType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('title')
+            ->add('title', null,[
+                'help' => 'Choose something catchy',
+                ])
             ->add('content')
         ;
     }
