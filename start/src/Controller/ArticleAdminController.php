@@ -9,6 +9,7 @@
 namespace App\Controller;
 
 use App\Entity\Article;
+use App\Form\ArticleFormType;
 use Doctrine\ORM\EntityManagerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -24,13 +25,13 @@ class ArticleAdminController extends AbstractController
      */
     public function new(EntityManagerInterface $em)
     {
-        die('todo');
+        $form = $this->createForm(ArticleFormType::class);
 
-        return new Response(sprintf(
-            'Hiya! New article id: #%d slug: %s',
-            $article->getId(),  // nu inseram noi id , stie doctrine ce id sa puna
-            $article->getSlug()
-        ));
+        return $this->render('article_admin/new.html.twig',[
+            'articleForm' => $form->createView(), //createView transform the object into other object care e super bun la render
+                                       //deci noi transformam obiectul form in alt obiect de tipul createView care e bun la render.
+
+        ]);
     }
 
     /**
