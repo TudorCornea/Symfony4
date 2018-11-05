@@ -42,7 +42,9 @@ class ArticleAdminController extends AbstractController
             $em->persist($article);
             $em->flush();
 
-            return $this->redirectToRoute('app_homepage');
+            $this->addFlash('success', 'Article Created! Knowledge is power!');
+            //so flash e o metoda in symfony , aceste messaje se afla pe sesiune si cand se citest o singura data , dispar
+            return $this->redirectToRoute('admin_article_list');
         }
         return $this->render('article_admin/new.html.twig',[
             'articleForm' => $form->createView(), //createView transform the object into other object care e super bun la render
@@ -62,7 +64,7 @@ class ArticleAdminController extends AbstractController
     }
 
     /**
-     * @Route("/admin/article")
+     * @Route("/admin/article", name="admin_article_list")
      */
     public function list(ArticleRepository $articleRepository)
     {

@@ -27,7 +27,7 @@
         si va deschide altceva , dar in cazul de fata eu am o cheie desemnata la nimic adica exit e desemnata la nimic , iar
         symofony stie ce trebuie sa faca , o sa o adauge ca query parameter de aceea poti sa apesi pe ea. LOGIG , nu? #}
     </div>
-<nav class="navbar navbar-expand-lg navbar-dark navbar-bg mb-5">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-bg {{ app.session.flashbag.peek('success')|length > 0 ? '' : 'mb-5' }}">
     <a style="margin-left: 75px;" class="navbar-brand space-brand" href="{{ path('app_homepage') }}">The Space Bar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +72,11 @@
         </ul>
     </div>
 </nav>
-
+{% for message in app.flashes('success') %}
+    <div class="alert alert-success">
+        {{ message }}
+    </div>
+{% endfor %}
 {% block body %}{% endblock %}
 
 <footer class="footer">
