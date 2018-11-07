@@ -1,0 +1,24 @@
+{% form_theme form 'default/fields.html.twig' %}
+{% extends 'content_base.html.twig' %}
+
+{% block content_body %}            {# aici e cum iau form_theme si o pun doar aici , apelez blocul din celalalt field
+                                      pot sa o pun si globala in twig , dar aici e varianta cand nu e globala#}
+    <div>
+        {{ form_row(form.task) }}
+    </div>
+
+    <div>
+        {{ form_label(form.dueDate, 'Your Date', {
+            'label_attr': {'class': 'CUSTOM_LABEL_CLASS'}
+        }) }}
+        {{ form_errors(form.dueDate) }}
+        {{ form_widget(form.dueDate) }}
+        {{ form_help(form.dueDate) }}
+    </div>
+
+    <div>
+        {{ form_widget(form.save) }}
+    </div>
+
+{% endblock %}
+
